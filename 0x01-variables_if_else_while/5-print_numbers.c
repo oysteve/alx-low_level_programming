@@ -6,15 +6,10 @@
  */
 int main(void)
 {
-	char c;
+	int num;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		if (c != 'e' && c != 'q')
-		putchar(c);
-	}
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
 	putchar('\n');
 	return (0);
 }
-
-
