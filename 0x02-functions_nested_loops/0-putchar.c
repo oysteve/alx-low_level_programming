@@ -4,38 +4,36 @@
 
 /**
  *
- *  * main - prints _putchar, followed by a new line.
+ *  * main - print _putchar
  *
- *   * Return: 0
+ *   * is written by us
  *
- *   **/
-
-
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 
 {
 
-		unsigned int i;
+		_putchar('_');
 
-			char c[] = "_putchar";
+			_putchar('p');
 
+				_putchar('u');
 
+					_putchar('t');
 
-				for (i = 0; i <= 7; i++)
+						_putchar('c');
 
-						{
+							_putchar('h');
 
-									_putchar(c[i]);
+								_putchar('a');
 
-										}
+									_putchar('r');
 
+										_putchar('\n');
 
-
-					_putchar('\n');
-
-
-
-						return (0);
+											return (0);
 
 }
