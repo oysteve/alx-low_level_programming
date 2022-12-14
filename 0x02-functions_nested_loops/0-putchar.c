@@ -1,35 +1,41 @@
 #include "main.h"
 
+
+
 /**
  *
- *  * main - Print "Adeniyi" followed by a new line.
+ *  * main - prints _putchar, followed by a new line.
  *
- *   * Description: You are not allowed to include standard libraries.
+ *   * Return: 0
  *
- *    * Return: 0
- *
- *     */
+ *   **/
+
+
 
 int main(void)
 
 {
 
-	int c = 0;
+		unsigned int i;
 
-	char adeniyi[10] = "_putchar\n";
+			char c[] = "_putchar";
 
 
 
-	while (c < 9)
+				for (i = 0; i <= 7; i++)
 
-	{
+						{
 
-		_putchar(adeniyi[c]);
+									_putchar(c[i]);
 
-		c++;
+										}
 
-	}
 
-	return (0);
+
+					_putchar('\n');
+
+
+
+						return (0);
 
 }
