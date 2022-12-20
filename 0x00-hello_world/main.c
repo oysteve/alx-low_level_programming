@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*
- * main- Assembly code
- * Returns: This returns 0
+/**
+ * main - This prints Assembly code
+ * Return: This returns 0
  */
 
 int main(void)
 {
-	printf("I want to generate assembly code");
-	Return(0);
+	printf("I want to generate assembly code\n");
+	return (0);
 }
