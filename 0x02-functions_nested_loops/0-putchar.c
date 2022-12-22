@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 
 /**
@@ -8,9 +7,9 @@
  *
  */
 
-int main()
+int main(void)
 {
-	char a[10] = "_putchar"
-	printf("%s\n", a);
-	return;
+	char ade[10] = "_putchar"
+		putchar('ade\n');
+		return (0);
 }
