@@ -8,8 +8,13 @@
  */
 
 int main(void)
-{
-	char ade[10] = "_putchar"
-		putchar('ade\n');
+	{
+		int c = 0;
+		char holberton[10] = "_putchar\n";
+		while (c < 9)
+		{
+			_putchar(holberton[c]);
+			c++;
+		}
 		return (0);
-}
+	}
