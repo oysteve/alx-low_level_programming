@@ -11,15 +11,12 @@
 
 int main(void)
 {
-	unsigned int i;
+	char c[10] = "_putchar";
+
 	{
-		char c[] = "_putchar";
-	
-	}
-	for (i = 0; i <= 7; i++)
-	{
-		_putchar(c[i]);
-	}
-	putchar('\n');
+		_putchar('c');
+	}	
+
+	_putchar('\n');
 	return (0);
-}
+}	
