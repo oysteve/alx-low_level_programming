@@ -1,33 +1,21 @@
-#include "holberton.h"
-
-
+#include "main.h"
 
 /**
+ * main- Printing alphabet
  *
- *  * print_alphabet - a function that prints the alphabet, in lowercase
+ * Description: print alphabet a to z in lower case
  *
- *   *
- *
- *    * Return: Always 0 (Succes)
- *
- *     */
+ */
 
-void print_alphabet(void)
-
+int main(void)
 {
+	char print_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-		int n;
-
-
-
-			for (n = 'a'; n <= 'z'; n++)
-
-					{
-
-								_putchar(n);
-
-									}
-
-				_putchar('\n');
-
+	for (i = 0; i < 26; i++)
+	{
+		_putchar(alphabet[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
