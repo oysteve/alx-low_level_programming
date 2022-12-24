@@ -6,11 +6,12 @@
  * Description: _islower(int c) is a function that checks for lowercase
  *
  * Return: 1 if c is lowercase
- *         0 if c is anyother
+ *         0 if c is any other
+ * @c==input
  *
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
