@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		_putchar(alphabet[i]);
+		_putchar(print_alphabet[i]);
 	}
 	_putchar('\n');
 	return (0);
