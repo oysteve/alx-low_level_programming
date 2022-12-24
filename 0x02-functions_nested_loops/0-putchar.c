@@ -9,9 +9,16 @@
  *
  */
 
+char task0;
+task0=_putchar;                                                                                                                         
+{
+	_putchar('task0');                                                                                                              
+
+}          
+
 int main(void)
 {
-	task0;	
+	task0();	
 	_putchar('\n');
 	return (0);
 }	

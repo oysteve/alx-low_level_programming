@@ -8,9 +8,5 @@
  */
 
 char task0;
-task0=_putchar;
-{
-	_putchar('task0');
-}
 
 #endif
