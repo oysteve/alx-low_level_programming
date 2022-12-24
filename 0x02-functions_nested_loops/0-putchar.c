@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Main- Printing _putcha.
+ * Main- Printing _putchar.
  *
- * Description: Doing functions in c.
+ * Description: Print _putchar with a new line.
  *
  * Return: Always 0 (Success)
  */
