@@ -1,11 +1,9 @@
-#ifndef MAIN_H
-
-#define MAIN_H
-
+#ifndef main_h
+#define main_h
 /**
- * header file for the functions task
- * 
- * Return: Always 0 (Success)
+ * Main - This is the header file for all the function prototypes
+ *
+ * Author: Olujide Oyeniran
  *
  */
 

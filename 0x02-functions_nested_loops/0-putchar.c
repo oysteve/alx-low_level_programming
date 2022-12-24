@@ -1,20 +1,20 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - A program that prints _putchar.
+ * Main- Printing _putcha.
  *
- * Return: Always 0 (success)
+ * Description: Doing functions in c.
+ *
+ * Return: Always 0 (Success).
  *
  */
 
 int main(void)
+{
+	int _putchar(char c);
 	{
-		int c = 0;
-		char holberton[10] = "_putchar\n";
-		while (c < 9)
-		{
-			_putchar(holberton[c]);
-			c++;
-		}
-		return (0);
+		c = _putchar;
 	}
+	_putchar(c);
+	return (0);
+}
