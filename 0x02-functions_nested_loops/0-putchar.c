@@ -11,12 +11,7 @@
 
 int main(void)
 {
-	char c[] = "_putchar";
-
-	{
-		_putchar('c');
-	}	
-
+	task0;	
 	_putchar('\n');
 	return (0);
 }	
