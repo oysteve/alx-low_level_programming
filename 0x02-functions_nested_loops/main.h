@@ -7,6 +7,6 @@
  *
  */
 
-char task0;
+int _putchar(char);
 
 #endif
