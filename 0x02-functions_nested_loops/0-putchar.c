@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char c[10] = "_putchar";
+	char c[] = "_putchar";
 
 	{
 		_putchar('c');
