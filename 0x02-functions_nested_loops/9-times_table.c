@@ -16,7 +16,7 @@ void times_table(void)
 		for (b = 0; b < 10;  b++)
 		{
 			product = a * b;
-			if (j == 0)
+			if (b == 0)
 			{
 				_putchar('0' + product);
 			}
