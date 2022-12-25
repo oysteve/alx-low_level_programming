@@ -29,7 +29,6 @@ void times_table(void)
 			else
 			{
 				_putchar(' ');
-				_putchar(' ');
 				_putchar(product + '0');
 			}
 			if (b != 9)
@@ -40,4 +39,4 @@ void times_table(void)
 	}
 	_putchar('\n');
 }
-
+i
