@@ -2,7 +2,9 @@
 
 /**
  * main - Checking for uppercase
- * 
+ *
+ * @c: print int
+ *
  * Return 1 if true
  * Return 0 if else
  *
@@ -10,12 +12,13 @@
 
 int _isupper(int c)
 {
-	if (c = 'A' && c = 'Z')
+	c = {A - Z};
+	if (c >= 'A' && c >= 'Z')
 	{
-		return(1);
+		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
