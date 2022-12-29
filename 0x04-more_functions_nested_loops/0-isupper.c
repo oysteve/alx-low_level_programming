@@ -1,13 +1,9 @@
 #include "main.h"
 
 /**
- * main - Checking for uppercase
- *
+ * _isupper- Checking for uppercase
  * @c: print int
- *
- * Return 1 if true
- * Return 0 if else
- *
+ * Return: give 1 or 0
  */
 
 int _isupper(int c)
