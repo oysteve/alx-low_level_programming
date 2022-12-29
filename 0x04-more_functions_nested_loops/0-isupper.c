@@ -1,4 +1,3 @@
-#include <stdlib,h>
 #include "main.h"
 
 int _isupper(int c)
@@ -11,9 +10,3 @@ int _isupper(int c)
 	{
 		return(0);
 	}
-	
-int main()
-{
-	_putchar_i(_isupper);
-	return (0);
-}
